@@ -1,0 +1,48 @@
+
+/* Reset default margin and padding for a clean layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center content on the page */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #360922; /* Light background */
+    color:#ffffff; /* Dark text for contrast */
+}
+
+/* Style for the main title */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Styling the main image */
+img {
+    max-width: 90%; /* Keeps the image responsive */
+    height: auto;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    margin-bottom: 20px;
+}
+
+/* Styling the arrow link */
+.arrow-link {
+    font-size: 2em; /* Larger font size for emphasis */
+    text-decoration: none;
+    color: #1d72b8; /* Blue color for the arrow */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for the arrow */
+.arrow-link:hover {
+    color: #0f4c81; /* Darker blue on hover */
+}
