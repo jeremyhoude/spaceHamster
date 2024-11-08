@@ -25,6 +25,11 @@ h1 {
     color: #ffffff;
 }
 
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
 /* Styling the main image */
 img {
     max-width: 90%; /* Keeps the image responsive */
@@ -34,15 +39,3 @@ img {
     margin-bottom: 20px;
 }
 
-/* Styling the arrow link */
-.arrow-link {
-    font-size: 2em; /* Larger font size for emphasis */
-    text-decoration: none;
-    color: #1d72b8; /* Blue color for the arrow */
-    transition: color 0.3s ease; /* Smooth transition effect */
-}
-
-/* Hover effect for the arrow */
-.arrow-link:hover {
-    color: #0f4c81; /* Darker blue on hover */
-}
